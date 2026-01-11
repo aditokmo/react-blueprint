@@ -20,6 +20,7 @@ A React CLI tool that helps you build and structure your projects in seconds, wi
 | **Data Fetching** | TanStack Query (React Query) |
 | **State Management** | Zustand (soon) |
 | **Icons** | React Icons, FontAwesome |
+| **Toast** | React Toastify, React Hot Toast, Sonner |
 
 ---
 
