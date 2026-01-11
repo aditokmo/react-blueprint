@@ -1,5 +1,6 @@
-export type StyleOption = 'tailwind' | 'css' | 'none';
+export type StyleOption = 'tailwind' | 'css';
 export type RouterOption = 'react-router' | 'tanstack-router';
+export type IconOption = 'react-icons' | 'font-awesome';
 
 export interface Answers {
     projectName: string;
@@ -7,4 +8,5 @@ export interface Answers {
     router: RouterOption;
     reactQuery: boolean;
     shadcn: boolean;
+    icons: IconOption;
 }

@@ -42,7 +42,9 @@ async function main() {
                 'import tailwindcss from "@tailwindcss/vite"',
                 'tailwindcss()'
             );
-        } else if (answers.style === 'css') {
+        }
+
+        if (answers.style === 'css') {
             copyTemplate(
                 path.join(templateRoot, 'styles', 'css', 'src'),
                 path.join(projectDir, 'src/styles')
