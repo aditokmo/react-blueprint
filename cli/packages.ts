@@ -46,9 +46,17 @@ export const reactFormHookInstaller = {
     dependency: ['react-hook-form'],
 }
 
+export const tanstackFormInstaller = {
+    dependency: ['@tanstack/react-form'],
+}
+
 // Schemas
 export const zodInstaller = {
     dependency: ['zod', '@hookform/resolvers'],
+}
+
+export const yupInstaller = {
+    dependency: ['yup', '@hookform/resolvers'],
 }
 
 // Base installation

@@ -1,8 +1,9 @@
-import { fontAwesomeIconsInstaller, reactFormHookInstaller, reactHotToastInstaller, reactIconsInstaller, reactQueryInstaller, reactRouterInstaller, reactToastifyInstaller, shadcnInstaller, sonnerInstaller, tailwindInstaller, zodInstaller } from './packages.js';
+import { fontAwesomeIconsInstaller, reactFormHookInstaller, reactHotToastInstaller, reactIconsInstaller, reactQueryInstaller, reactRouterInstaller, reactToastifyInstaller, shadcnInstaller, sonnerInstaller, tailwindInstaller, tanstackFormInstaller, yupInstaller, zodInstaller } from './packages.js';
 import { PackageInstaller } from './types.js';
 
 export const installers: Record<string, PackageInstaller> = {
     'reactQuery': reactQueryInstaller,
+    //'zustand': zustandInstaller,
     'react-router': reactRouterInstaller,
     //'tanstack-router': tanstackRouterInstaller,
     'tailwind': tailwindInstaller,
@@ -12,7 +13,7 @@ export const installers: Record<string, PackageInstaller> = {
     'react-toastify': reactToastifyInstaller,
     'sonner': sonnerInstaller,
     'react-hook-form': reactFormHookInstaller,
-    //'tanstack-form': tanstackFormInstaller,
-    'zod': zodInstaller
-    // 'yup': yupInstaller,
+    'tanstack-form': tanstackFormInstaller,
+    'zod': zodInstaller,
+    'yup': yupInstaller,
 }

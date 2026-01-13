@@ -9,7 +9,6 @@ export function collectDependencies(answers: Answers) {
 
     // Default base packages
     axiosInstaller.dependency?.forEach(d => dependency.add(d));
-    console.log(axiosInstaller)
 
     // Packages from answers
     Object.entries(answers).forEach(([key, value]) => {

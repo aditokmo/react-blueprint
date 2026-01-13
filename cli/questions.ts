@@ -52,7 +52,7 @@ export async function askQuestions(): Promise<Answers> {
                 message: 'Choose form library:',
                 options: [
                     { value: 'react-hook-form', label: 'React Hook Form' },
-                    //{ value: 'tanstack-form', label: 'TanStack Form' },
+                    { value: 'tanstack-form', label: 'TanStack Form' },
                 ],
             }),
 
@@ -60,7 +60,7 @@ export async function askQuestions(): Promise<Answers> {
                 message: 'Choose schema library:',
                 options: [
                     { value: 'zod', label: 'Zod' },
-                    //{ value: 'yup', label: 'Yup' },
+                    { value: 'yup', label: 'Yup' },
                 ]
             }),
 
