@@ -1,11 +1,11 @@
 {
-  "name": "@aditokmo/create-react-blueprint",
+  "name": "@aditokmo/react-cli-setup",
   "version": "0.1.0",
-  "description": "Fast scalable React setup CLI",
+  "description": "A fast React CLI to jumpstart your projects. It sets up your libraries and organizes a scalable folder structure so you can skip the configuration and go straight to coding.",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
-    "create-react-blueprint": "./dist/index.js"
+    "react-cli-setup": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -16,7 +16,6 @@
     "react",
     "cli",
     "vite",
-    "scaffold",
     "boilerplate",
     "tanstack-router",
     "tanstack-query",
@@ -24,19 +23,21 @@
     "zustand",
     "shadcn-ui",
     "tailwind",
-    "enterprise-architecture",
     "project-generator",
     "react-hook-form",
-    "zod"
+    "zod",
+    "enterprise-architecture",
+    "frontend-architecture",
+    "react-architecture"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aditokmo/react-blueprint.git"
+    "url": "git+https://github.com/aditokmo/react-cli-setup.git"
   },
   "bugs": {
-    "url": "https://github.com/aditokmo/react-blueprint/issues"
+    "url": "https://github.com/aditokmo/react-cli-setup/issues"
   },
-  "homepage": "https://github.com/aditokmo/react-blueprint#readme",
+  "homepage": "https://github.com/aditokmo/react-cli-setup#readme",
   "publishConfig": {
     "access": "public"
   },

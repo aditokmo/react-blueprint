@@ -1,4 +1,4 @@
-import { ApiService } from "@/api/api";
+import { ApiService } from "@/api";
 import type { AuthResponse, LoginPayload, RegisterPayload } from "../types";
 import { ENDPOINTS } from "./endpoint";
 

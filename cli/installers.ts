@@ -22,8 +22,6 @@ export function collectDependencies(answers: Answers) {
         cmd.push(...shadcnInstaller.cmd);
     }
 
-    console.log(dependency)
-
     return {
         dependency: Array.from(dependency),
         devDependency: Array.from(devDependency),

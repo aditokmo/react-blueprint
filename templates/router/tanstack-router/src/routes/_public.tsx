@@ -3,7 +3,7 @@ import { useAuthStore } from '@/store';
 
 export const Route = createFileRoute('/_public')({
     beforeLoad: () => {
-        const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
+        const isAuthenticated = useAuthStore.getState().isAuthenticated;
 
         if (isAuthenticated) {
             throw redirect({ to: '/' });

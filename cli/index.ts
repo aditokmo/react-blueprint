@@ -13,7 +13,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 async function main() {
-    console.log('⚛️ Welcome to React CLI by github/aditokmo');
+    console.log('⚛️ Welcome to React CLI Setup by github/aditokmo');
 
     let projectDir: string = '';
 

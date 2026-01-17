@@ -13,7 +13,7 @@ export function ProtectedRoute({
     const isAuthenticated = useAuthStore((state) => state.isAuthenticated);
 
     if (!isAuthenticated) {
-        return <Navigate to={redirectTo ?? '/'} replace />;
+        return <Navigate to={redirectTo ?? '/login'} replace />;
     }
 
     return children;
