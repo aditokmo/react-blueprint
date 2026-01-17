@@ -1,12 +1,31 @@
-# React CLI Setup
+# @aditokmo/react-cli-setup 🚀
 
-A React CLI built with Vite that helps you build and structure your projects in seconds, with pre-configured setups based on the tools you select below.
+[![npm version](https://img.shields.io/npm/v/@aditokmo/react-cli-setup?color=blue)](https://www.npmjs.com/package/@aditokmo/react-cli-setup)
+
+A React CLI built with Vite that helps you build and structure your projects in seconds. It eliminates manual setup by configuring your favorite tools into a **clean, modular architecture** automatically.
 
 ## What it does
 
 * **Automated Installation:** Installs all selected libraries (listed below) for you.
 * **Structuring:** Automatically generates a scalable folder structure based on your choices.
 * **Boilerplate Injection:** Pre-configures Providers, Router paths, etc., so you can start coding features immediately
+
+---
+
+##  Usage
+
+Run the following command in your terminal to start CLI
+
+```bash
+# Using NPM
+npx @aditokmo/react-cli-setup
+
+# Using PNPM
+pnpm dlx @aditokmo/react-cli-setup
+
+# Using Yarn
+yarn dlx @aditokmo/react-cli-setup
+```
 
 ---
 
@@ -28,22 +47,6 @@ A React CLI built with Vite that helps you build and structure your projects in 
 | **Custom Hooks** |  |
 | **Helpers** |  |
 
----
-
-##  Usage
-
-Run the following command in your terminal to start CLI
-
-```bash
-# Using NPM
-npx @aditokmo/react-cli-setup
-
-# Using PNPM
-pnpm dlx @aditokmo/react-cli-setup
-
-# Using Yarn
-yarn dlx @aditokmo/react-cli-setup
-```
 ---
 
 ## Folder Structure
@@ -109,3 +112,9 @@ react-cli-setup
 
 * `cli/` - Logic for the CLI.
 * `templates/` - Pre-defined boilerplates and configurations.
+
+---
+
+<p align="center">
+  Developed with ❤️ by <a href="https://github.com/aditokmo">aditokmo</a>
+</p>
