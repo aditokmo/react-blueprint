@@ -40,11 +40,6 @@ export const sonnerInstaller = {
     dependency: ['sonner'],
 }
 
-// UI Libs
-export const shadcnInstaller = {
-    cmd: ['pnpm dlx shadcn@latest init']
-};
-
 // Routers
 export const reactRouterInstaller = {
     dependency: ['react-router', 'react-router-dom'],
