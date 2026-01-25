@@ -62,7 +62,7 @@ TanStack Query is integrated to handle server-state management. It is optional, 
 
 ### Styling
 
-You can choose between CSS, SCSS (soon), or Tailwind CSS. While I personally recommend Tailwind for modern and faster development, the CLI ensures that regardless of your choice, the project is configured with a global styles directory and a consistent entry point. If you select TailwindCSS you will also have option to use Shadcn/UI, and with that you will have option to choose components that you want to install instead of doing it manually.
+You can choose between CSS, SCSS, or Tailwind CSS. While I personally recommend Tailwind for modern and faster development, the CLI ensures that regardless of your choice, the project is configured with a global styles directory and a consistent entry point. If you select TailwindCSS you will also have option to use Shadcn/UI, and with that you will have option to choose components that you want to install instead of doing it manually.
 
 ### Routing
 
